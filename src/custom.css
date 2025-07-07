@@ -1,0 +1,98 @@
+:root {
+    --color-primario: #2F5249;
+    --color-secundario: #437057;
+    --color-terciario: #97B067;
+    --color-cuarto: #E3DE61;
+    --color-login: #f3d991;
+    --color-products: #f3dfa6;
+    --color-cards: #744120a9;
+}
+
+/* Clases personalizadas */
+.bg-primario {
+    background-color: var(--color-primario) !important;
+}
+
+.bg-secundario {
+    background-color: var(--color-secundario) !important;
+}
+
+.bg-terciario {
+    background-color: var(--color-terciario) !important;
+}
+
+.bg-cuarto {
+    background-color: var(--color-cuarto) !important;
+}
+
+.text-primario {
+    color: var(--color-primario) !important;
+}
+
+.text-secundario {
+    color: var(--color-secundario) !important;
+}
+
+.text-terciario {
+    color: var(--color-terciario) !important;
+}
+
+.text-cuarto {
+    color: var(--color-cuarto) !important;
+}
+
+.color-login {
+    background-color: var(--color-login) !important;
+}
+
+.color-products {
+    background-color: var(--color-products) !important;
+}
+
+.color-cards {
+    background-color: var(--color-cards) !important;
+}
+
+
+
+.btn-primario {
+    background-color: var(--color-primario);
+    color: white;
+    border: none;
+}
+
+.btn-primario:hover {
+    background-color: #243e36; /* Versión más oscura */
+}
+
+.card-hover {
+    position: relative;
+    cursor: pointer;
+}
+
+.card-hover .overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(47, 82, 73, 0.7); /* color primario con opacidad */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.card-hover:hover .overlay-text {
+    opacity: 1;
+}
+
+.card-hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Opacidad inicial */
+    z-index: 1;
+}
