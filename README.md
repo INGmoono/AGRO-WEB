@@ -2,7 +2,7 @@
 
 2. Clonar el proyecto, con esta accion tendra todo el codigo en su maquina, pegue el pegue el link que copio en el paso 1. 
 
-### `git clone http://github...`
+### `git clone https://github.com/INGmoono/AGRO-WEB`
 
 3. una vez se haya clonado entre a la carpeta creada (AGRO-WEB) con el comnado "cd", para estar seguro del nombre digite el comando "dir" en la terminal.
 
